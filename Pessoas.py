@@ -45,7 +45,7 @@ def main():
 
 	sobrenome = input("Qual seu sobrenome?")
 
-	ocupacao = input("Trabalha com o que?")
+	ocupacao = input("Trabalha com o que??")
 
 	idade = int(input("E tem quantos aninhos o bebê"))
 
