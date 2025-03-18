@@ -53,8 +53,4 @@ def main():
 
 	eu.printa()
 
-	eu.set_idade(15)
-
-	eu.printa()
-
 main()
