@@ -1,7 +1,3 @@
-
-	# Versão Beta : achei divertido, obviamente não tá totalmente desenvolvido porque esse código só aceita
-	# letras minúsculas e sem acento, vou fazer uma versão melhorada depois.
-
 	# Versão Beta 2.0 : Okay, agora conseguimos lidar com letras maiúsculas e números na frase que vai ser codificada, além
 	# de ter mudado a forma de armazenar a criptografia, usar dicionários é bem mais fácil. Mudanças futuras serão eu
 	# comentar o código, que definitivamente tá faltando, e talvez achar uma forma melhor de lidar com caracteres especiais
