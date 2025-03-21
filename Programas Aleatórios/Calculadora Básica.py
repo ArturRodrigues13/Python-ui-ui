@@ -1,15 +1,17 @@
-def calcula(a,b,operacao):
-	resultado = 0
-	if operacao == 1:
-		resultado = a + b
-	elif operacao == 2:
-		resultado = a - b
-	elif operacao == 3:
-		resultado = a * b
-	else:
-		resultado = a / b
+def soma(a,b):
+	return a + b
 
-	return resultado
+def subtracao(a,b):
+	return a - b
+
+def multiplicacao(a,b):
+	return a * b
+
+def divisao(a,b):
+	if b == 0:
+		print("Em uma divisão, o divisor não pode ser 0, não será possível executar essa operação")
+		exit()
+	return a / b
 
 def main():
 	print("Oieee, bem vindo a calculadora básica em python haha, me dá os números que tu quer calcular aí")
@@ -25,7 +27,17 @@ def main():
 
 	operacao = int(input())
 
-	resultado = calcula(num1,num2,operacao)
+	if operacao == 1:
+		resultado = soma(num1,num2)
+	elif operacao == 2:
+		resultado = subtracao(num1,num2)
+	elif operacao == 3:
+		resultado = multiplicacao(num1,num2)
+	elif operacao == 4:
+		resultado = divisao(num1,num2)
+	else:
+		print("Operação Inválida")
+		return 1
 
 	print(f"O resultado é {resultado:.2f}")
 
